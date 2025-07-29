@@ -1,27 +1,48 @@
-# PipesDeepDive
+# 🔄 Mini-Projet Angular – Pipes & Transformations
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.0.
+Projet réalisé dans le cadre de la section **"Transforming Values with Pipes – Deep Dive"** de la formation *Angular - The Complete Guide (2025 Edition)* de Maximilian Schwarzmüller (Udemy).
 
-## Development server
+## 🎯 Objectif
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Comprendre le fonctionnement des **Pipes Angular** à travers un exemple simple de transformation de températures (Celsius ↔ Fahrenheit) et l’utilisation de pipes personnalisés pour des conversions dynamiques et des tris.
 
-## Code scaffolding
+---
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 🧠 Concepts Angular mis en œuvre
 
-## Build
+- Utilisation de **Pipes natifs Angular** (`date`, `decimal`)
+- Création de **pipes personnalisés** (`temp`, `sort`)
+- Transformation conditionnelle des données selon les paramètres (`inputType`, `outputType`)
+- Utilisation de pipes **impurs** (ex. : `SortPipe`) pour mettre en évidence leur comportement avec Angular
+- Démonstration de **limites et bonnes pratiques** dans l’usage des pipes (Pure vs Impure)
+- Comportement dynamique de listes via des pipes et la méthode `.sort()`
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+---
 
-## Running unit tests
+## 🧪 Fonctionnalité principale
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Affichage de températures actuelles dans différentes villes, transformées dynamiquement avec `temp`
+- Affichage d’un historique trié, réinitialisable à l’aide d’une interaction utilisateur
+- Comportement réactif démontrant la différence entre pipes purs et impurs
 
-## Running end-to-end tests
+---
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## 📦 Technologies
 
-## Further help
+- Angular 18 (Standalone components & pipes)
+- TypeScript
+- HTML/CSS
+- Pipes personnalisés (`@Pipe`)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+---
+
+## 🚧 Statut
+
+✅ Projet terminé – compréhension claire des mécanismes internes et externes des Pipes Angular.
+
+---
+
+## 🔗 Liens utiles
+
+- [👉 Formation Udemy](https://www.udemy.com/course/the-complete-guide-to-angular-2/)
+- [👤 Mon profil LinkedIn](https://www.linkedin.com/in/kevin-maldonado-a17864295)
